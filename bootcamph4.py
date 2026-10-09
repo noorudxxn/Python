@@ -22,5 +22,5 @@ if "asha" in Web_Development or "asha" in new_data_science or "asha" in UI_UX_De
     print("true")
 else:
     print("false")
-first_participants = (Web_Development[0], Data_Science[0], UI_UX_Design[0])
+first_participants = (Web_Development[0], new_data_science[0], UI_UX_Design[0])
 print(first_participants)
