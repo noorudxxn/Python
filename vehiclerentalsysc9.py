@@ -40,3 +40,4 @@ print("Car Rental Charge:", calculate_rental(car))
 
 print(bike.display_details())
 print("Bike Rental Charge:", calculate_rental(bike))
+
