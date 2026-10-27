@@ -4,7 +4,7 @@ import os
 todo_list = []
 filename = "todo.txt"
 
-# Load existing tasks
+
 if os.path.exists(filename):
     with open(filename, "r") as file:
         for line in file:
@@ -46,7 +46,7 @@ while True:
             "time": time
         })
 
-        # Save tasks to the text file
+        
         with open(filename, "w") as file:
             for todo in todo_list:
                 file.write(
